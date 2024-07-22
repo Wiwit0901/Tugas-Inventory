@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Inventory | Barang Edit</title>
+  <title>Inventory | Detail Cetak Permintaan</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -152,7 +152,7 @@
     <!-- Brand Logo -->
     <a href="../../index3.html" class="brand-link">
       <img src="../../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Inventory</span>
+      <span class="brand-text font-weight-light">AdminLTE 3</span>
     </a>
 
     <!-- Sidebar -->
@@ -179,7 +179,7 @@
         </div>
       </div>
 
-      <!-- /.sidebar-menu -->
+      <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
@@ -255,6 +255,7 @@
           </li>
         </ul>
       </nav>
+      <!-- /.sidebar-menu -->
     </div>
     <!-- /.sidebar -->
   </aside>
@@ -266,12 +267,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h3>Edit Barang</h3>
-          </div>
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-            </ol>
+            <h1>Detail Cetak Permintaan</h1>
           </div>
         </div>
       </div><!-- /.container-fluid -->
@@ -279,61 +275,121 @@
 
     <!-- Main content -->
     <section class="content">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="card card-primary">
-            <div class="card-body">
-              <div class="form-group">
-                <label for="inputName">Kode Sub Kelompok</label>
-                <input type="text" id="inputName" class="form-control">
+
+      <!-- Default box -->
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">Detail Permintaan Barang</h3>
+        </div>
+        <div class="card-body">
+          <div class="row">
+              <div class="row">
+                <div class="col-12">
+                    <div class="post">
+                        <p>
+                        Kode Permintaan
+                        </p>
+                        <p>
+                        CP001
+                        </p>
+                     </div>
+                    <div class="post">
+                      <p>
+                        Kode Sub Kelompok
+                      </p>
+                      <p>
+                        IT
+                      </p>
+                    </div>
+                    <div class="post">
+                      <p>
+                        Kode Barang
+                      </p>
+                      <p>
+                        B001
+                      </p>
+                    </div>
+                    <div class="post">
+                      <p>
+                        Nama Barang
+                      </p>
+                      <p>
+                        ABC
+                      </p>
+                    </div>
+                    <div class="post">
+                      <p>
+                        Satuan
+                      </p>
+                      <p>
+                        1
+                      </p>
+                    </div>
+                    <div class="post">
+                      <p>
+                        Stok
+                      </p>
+                      <p>
+                        2
+                      </p>
+                    </div>
+                    <div class="post">
+                      <p>
+                        Expired Null
+                      </p>
+                      <p>
+                        20 Juli 2024
+                      </p>
+                    </div>
+                    <div class="post">
+                      <p>
+                        Gambar Barang
+                      </p>
+                      <p>
+                        <img/>
+                      </p>
+                    </div>
+                    <div class="post">
+                      <p>
+                        Nama Lemari
+                      </p>
+                      <p>
+                        asd
+                      </p>
+                    </div>
+                    <div class="post">
+                      <p>
+                        Alamat Gudang
+                      </p>
+                      <p>
+                        Jalan Abcd
+                      </p>
+                    </div>
+                    <div class="post">
+                    <p>
+                      Tanggal Permintaan
+                    </p>
+                    <p>
+                      02 Juli 2024
+                    </p>
+                    </div>
+                    <div class="post">
+                    <p>
+                      User
+                    </p>
+                    <p>
+                      Manager
+                    </p>
+                    </div>
+                </div>
               </div>
-              <div class="form-group">
-                <label for="inputName">Kode Barang</label>
-                <input type="text" id="inputName" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="inputName">Nama Barang</label>
-                <input type="text" id="inputName" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="inputName">Satuan</label>
-                <input type="text" id="inputName" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="inputName">Stok</label>
-                <input type="text" id="inputName" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="inputName">Expired</label>
-                <input type="date" id="inputName" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="inputName">Gambar Barang</label>
-                <input type="file" id="inputName" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="inputName">Nama lemari</label>
-                <input type="text" id="inputName" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="inputName">Alamat Gudang</label>
-                <input type="text" id="inputName" class="form-control">
-              </div>
-            </div>
-            <!-- /.card-body -->
-            <div class="row">
-              <!-- <div class="col-8"></div> -->
-              <div class="col-12">
-                <input type="submit" value="Update" class="btn btn-success float-sm-right">
-                <!-- <th></th> -->
-                <a href="./projects.html" class="btn btn-secondary float-sm-right">Cancel</a>
-              </div>
-              <br>
             </div>
           </div>
-          <!-- /.card -->
         </div>
+        <!-- /.card-body -->
       </div>
+      <!-- /.card -->
+
     </section>
     <!-- /.content -->
   </div>

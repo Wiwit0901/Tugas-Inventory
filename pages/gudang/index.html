@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
-</head>;;';;;;;;;;;;;/'
+</head>
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
@@ -21,12 +21,6 @@
     <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="../../index3.html" class="nav-link">Home</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
       </li>
     </ul>
 
@@ -195,12 +189,11 @@
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
-                <i class="right fas fa-angle-left"></i>
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="pages/barang/projects.html" class="nav-link">
+            <a href="../barang/projects.html" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Barang
@@ -208,7 +201,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="../gudang/index.html" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Gudang
@@ -216,15 +209,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-chart-pie"></i>
-              <p>
-                Charts
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="../lemari/index.html" class="nav-link">
               <i class="nav-icon fas fa-chart-pie"></i>
               <p>
                 Lemari
@@ -232,12 +217,41 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="../sub_kelompok/index.html" class="nav-link">
               <i class="nav-icon fas fa-chart-pie"></i>
               <p>
                 Sub Kelompok Barang
               </p>
             </a>
+          </li>
+          <li class="nav-item menu-closed">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Laporan
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../permintaan/index.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Cetak Permintaan</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../pemasukan/index.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Cetak Pemasukan</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../pemakaian/index.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Cetak Pemakaian</p>
+                </a>
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>
@@ -253,12 +267,10 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Barang</h1>
+            <h3>Gudang</h3>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Gudang</li>
             </ol>
           </div>
         </div>
@@ -274,7 +286,7 @@
           <h3 class="card-title">List Gudang</h3>
 
           <div class="card-tools">
-            <a href="pages/barang/project-add.html" class="nav-link">
+            <a href="../gudang/add.html" class="nav-link">
               <button type="button" class="btn btn-tool" >
                 <th style="width: 8%" class="text-center">
                   Add
@@ -326,12 +338,12 @@
                         </a>
                       </td>
                       <td class="project-actions text-right">
-                          <a class="btn btn-primary btn-sm" href="/pages/barang/project-detail.html">   
+                          <a class="btn btn-primary btn-sm" href="./detail.html">   
                               <i class="fas fa-folder">
                               </i>
                               View
                           </a>
-                          <a class="btn btn-info btn-sm" href=" /project-edit.html">
+                          <a class="btn btn-info btn-sm" href="./edit.html">
                               <i class="fas fa-pencil-alt">
                               </i>
                               Edit
